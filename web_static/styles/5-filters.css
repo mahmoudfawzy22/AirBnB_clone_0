@@ -1,0 +1,29 @@
+.locations, .amenities{
+    height: 100%;
+    width: 25%;
+    border-right: 1px solid #DDDDDD;
+    position: relative;
+}
+
+.amenities{
+    border: none;
+}
+
+.amenities h3, .locations h3{
+    padding: 0;
+    margin-bottom: 0;
+    font-weight: 600;
+    position: absolute;
+    left: 55px;
+}
+
+.amenities h4, .locations h4{
+    font-weight: 400;
+    margin: 0;
+    font-size: 14px;
+    position: relative;
+    left: 55px;
+    margin-top: 0px;
+    top: 38px;
+    position: relative;
+}
