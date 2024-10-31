@@ -1,18 +1,7 @@
-*{
+body{
     margin: 0;
     padding: 0;
-    font-size: 14px;
-    font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: #484848;
+    display: grid;
+    grid-template-rows: 1fr auto 1fr;
 }
 
-html, body{
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-
-.content{
-    flex: 1;
-    position: relative;
-}
