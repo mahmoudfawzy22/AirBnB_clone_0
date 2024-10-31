@@ -1,7 +1,13 @@
 footer{
+    color: #0f0;
     height: 60px;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+    /* center text */
+    text-align: center;
+    line-height: 60px; /* to center vertically lineHeight=height */
+
+    /* always at bottom */
+    position: fixed;
+    bottom: 0;
 }
